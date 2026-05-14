@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import Phon from './components/Phon.vue'
+import { Toaster } from '@/components/ui/sonner'
+import TranscribePage from '@/components/transcribe/TranscribePage.vue'
 </script>
 
 <template>
-  <Phon />
+  <TranscribePage />
+  <Toaster rich-colors close-button position="bottom-right" />
 </template>
